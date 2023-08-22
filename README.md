@@ -39,7 +39,7 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.ROTATE_180).
 ### Register No:212222100023
 ```
 ## i) Write the frame as JPG file
-```
+```python
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
@@ -71,7 +71,6 @@ cv2.destroyAllWindows()
 
 
 ## iii) Display the video by resizing the window
-
 ```
 import numpy as np
 import cv2
@@ -91,7 +90,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
 ```
 
 
