@@ -48,6 +48,7 @@ while(True):
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
+
 ```
 
 
@@ -65,6 +66,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
 ```
 
 
@@ -89,6 +91,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
 ```
 
 
@@ -113,6 +116,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
 ```
 
 
